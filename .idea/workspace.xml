@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2903e19a-0666-424e-a767-7ba4910b3b9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/com/softserve/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/softserve/EmpManagement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZIeUTuZ9lf9PPBXlkVIgjfiBIi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.softserve" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.softserve" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EmpManagement">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softserve.Dog" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softserve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softserve.EmpManagement" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softserve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softserve.EmployManagementSystem" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softserve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softserve.EmployeeManagement" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softserve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.softserve.Main" />
+      <module name="Solution" />
+      <option name="PROGRAM_PARAMETERS" value="88.8 77.7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.softserve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Dog" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.EmployeeManagement" />
+      <item itemvalue="Application.EmployManagementSystem" />
+      <item itemvalue="Application.EmpManagement" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmpManagement" />
+        <item itemvalue="Application.EmployManagementSystem" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EmployeeManagement" />
+        <item itemvalue="Application.Dog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2903e19a-0666-424e-a767-7ba4910b3b9e" name="Default Changelist" comment="" />
+      <created>1584531053804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584531053804</updated>
+      <workItem from="1584531112899" duration="1340000" />
+      <workItem from="1584613232382" duration="13109000" />
+      <workItem from="1584691527224" duration="621000" />
+      <workItem from="1584701255725" duration="27565000" />
+      <workItem from="1584875690146" duration="2785000" />
+      <workItem from="1585338587265" duration="1698000" />
+      <workItem from="1588587055696" duration="9545000" />
+      <workItem from="1588662236814" duration="15924000" />
+      <workItem from="1588750211868" duration="38954000" />
+      <workItem from="1589022238516" duration="18343000" />
+      <workItem from="1589096936459" duration="1689000" />
+      <workItem from="1589812677022" duration="18334000" />
+      <workItem from="1590242912140" duration="14241000" />
+      <workItem from="1590500171238" duration="2892000" />
+      <workItem from="1594664118589" duration="585000" />
+      <workItem from="1594721519976" duration="87414000" />
+      <workItem from="1597131664961" duration="325000" />
+      <workItem from="1597138043030" duration="2389000" />
+      <workItem from="1597310639385" duration="42959000" />
+      <workItem from="1598104730920" duration="10755000" />
+      <workItem from="1598336409961" duration="28320000" />
+      <workItem from="1599045127079" duration="26549000" />
+      <workItem from="1599653349225" duration="7670000" />
+      <workItem from="1600685270544" duration="14000" />
+      <workItem from="1601284051320" duration="142000" />
+      <workItem from="1601285342146" duration="3440000" />
+      <workItem from="1601333568599" duration="12530000" />
+      <workItem from="1601456785218" duration="6916000" />
+      <workItem from="1601550340184" duration="10185000" />
+      <workItem from="1602257817727" duration="593000" />
+      <workItem from="1602334285574" duration="30773000" />
+      <workItem from="1602958104922" duration="53827000" />
+      <workItem from="1603278868300" duration="129552000" />
+      <workItem from="1603960690085" duration="1335000" />
+      <workItem from="1603966766729" duration="517000" />
+      <workItem from="1603968374759" duration="111602000" />
+      <workItem from="1604681504736" duration="87061000" />
+      <workItem from="1605522942595" duration="921000" />
+      <workItem from="1605524242760" duration="17243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1605444836044">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605444836044" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602972698638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602972698638" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1605619690704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605619690704" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602417068678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602417068678" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1603227790597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603227790597" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1605523948667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605523948667" />
+    <state width="1323" height="122" key="GridCell.Tab.0.bottom" timestamp="1605616797145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605616797145" />
+    <state width="1323" height="122" key="GridCell.Tab.0.center" timestamp="1605616797118">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605616797118" />
+    <state width="1323" height="122" key="GridCell.Tab.0.left" timestamp="1605616797031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605616797031" />
+    <state width="1323" height="122" key="GridCell.Tab.0.right" timestamp="1605616797118">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605616797118" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1605012775598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605012775598" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605525637592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605525637592" />
+    <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599550477825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1599550477825" />
+    <state x="468" y="98" width="898" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604225905755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="468" y="98" width="898" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1604225905755" />
+    <state x="383" y="121" key="refactoring.ChangeSignatureDialog" timestamp="1605610855463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="121" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1605610855463" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1603698680405">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603698680405" />
+    <state x="443" y="158" key="search.everywhere.popup" timestamp="1602928288887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="443" y="158" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602928288887" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

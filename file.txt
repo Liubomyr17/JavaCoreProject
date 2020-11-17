@@ -1,0 +1,7 @@
+Employee ID:1
+Employee Name     :Liubomyr
+Father's Name     :Izdepskyi
+Employee Contact  :
+Email Information :lizdepskyi@
+Employee position :programmer
+Employee Salary   :3000$
