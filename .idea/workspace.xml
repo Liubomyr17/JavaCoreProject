@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2903e19a-0666-424e-a767-7ba4910b3b9e" name="Default Changelist" comment="Input Choice">
+    <list default="true" id="2903e19a-0666-424e-a767-7ba4910b3b9e" name="Default Changelist" comment="Change Input Choice">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/softserve/EmpManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/softserve/EmpManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Dog" />
       <item itemvalue="Application.Main" />
@@ -206,7 +219,7 @@
       <workItem from="1604681504736" duration="87061000" />
       <workItem from="1605522942595" duration="921000" />
       <workItem from="1605524242760" duration="23655000" />
-      <workItem from="1605699183179" duration="7005000" />
+      <workItem from="1605699183179" duration="9361000" />
     </task>
     <task id="LOCAL-00001" summary="General Information">
       <created>1605620136350</created>
@@ -229,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605722592287</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change Input Choice">
+      <created>1605736857820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605736857820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +271,8 @@
     <MESSAGE value="General Information" />
     <MESSAGE value="Input Information" />
     <MESSAGE value="Input Choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input Choice" />
+    <MESSAGE value="Change Input Choice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Input Choice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1605444836044">
@@ -278,22 +299,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605523948667" />
-    <state width="1323" height="122" key="GridCell.Tab.0.bottom" timestamp="1605616797145">
+    <state width="1323" height="303" key="GridCell.Tab.0.bottom" timestamp="1605739076609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605616797145" />
-    <state width="1323" height="122" key="GridCell.Tab.0.center" timestamp="1605616797118">
+    <state width="1323" height="303" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605739076609" />
+    <state width="1323" height="303" key="GridCell.Tab.0.center" timestamp="1605739076609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605616797118" />
-    <state width="1323" height="122" key="GridCell.Tab.0.left" timestamp="1605616797031">
+    <state width="1323" height="303" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605739076609" />
+    <state width="1323" height="303" key="GridCell.Tab.0.left" timestamp="1605739076609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605616797031" />
-    <state width="1323" height="122" key="GridCell.Tab.0.right" timestamp="1605616797118">
+    <state width="1323" height="303" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605739076609" />
+    <state width="1323" height="303" key="GridCell.Tab.0.right" timestamp="1605739076609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605616797118" />
+    <state width="1323" height="303" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605739076609" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605012775598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -306,6 +327,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1599550477825" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605736836489">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605736836489" />
     <state x="468" y="98" width="898" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604225905755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,8 +1,6 @@
 package com.softserve;
 
 import java.io.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -62,7 +60,7 @@ class EmployeeInfo implements Serializable {
 public class EmpManagement {
     static void display(ArrayList<EmployeeInfo> all) {
         System.out.println("\n--------------Employee List---------------\n");
-        System.out.printf("%-10s%-15s%-10s%-20s%-10s%-15s%-10s%-20s%-10s%-15s%-10s%-20s%-10s%n",
+        System.out.printf("%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%n",
                 "ID", "LastName", "FirstName", "FathersName", "DateOfBirth", "Position", "Department", "RoomNumber",
                 "OfficeNumber", "Email", "Salary", "DateOfEmployment", "Notes");
         for (EmployeeInfo e : all) {
@@ -72,7 +70,7 @@ public class EmpManagement {
         }
     }
     @SuppressWarnings("unchecked")
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         int id;
         String lastName;
         String firstName;
@@ -88,12 +86,7 @@ public class EmpManagement {
         String notes;
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("dd-mm-yyyy"); dateOfBirth =new Scanner(System.in).nextLine();
-        SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
-        dateOfBirth = format.format(dateOfBirth);
-        dateOfEmployment = new Scanner(System.in).nextLine();
-        dateOfEmployment=format.format(dateOfEmployment);
-        ArrayList<EmployeeInfo> all = new ArrayList<EmployeeInfo>();
+        ArrayList<EmployeeInfo> all = new ArrayList<>();
         File file = null;
         FileInputStream fileInputStream = null;
         ObjectInputStream objectInputStream = null;
@@ -168,14 +161,14 @@ public class EmpManagement {
                   System.out.println("\nEmployee's Details are not available, Please enter a valid ID please!");
               }
               break;
-          case 3: System.out.println("nEnter the Employee ID to EDIT the details");
+          case 3: System.out.println("\nEnter the Employee ID to EDIT the details");
               id = sc.nextInt();
               int j = 0;
               for (EmployeeInfo e : all) {
                   if (id == e.id) {
                       j++;
                       do {
-                          int chislo1 = 0;
+                          int chislo1;
                           System.out.println("\nEdit Employee Details :\n" +
                                   "1). Employee ID\n" +
                                   "2). Last Name\n" +
@@ -259,7 +252,7 @@ public class EmpManagement {
 
                                   case 14: j++;
                                       break;
-                                  default: System.out.println("\nEnter a correct choice from the List :");
+                                  default: System.out.println("\nEnter a correct choice from the List please:");
                                       break;
                               }
                           }
@@ -269,3 +262,64 @@ public class EmpManagement {
                       System.out.println("\nEmployee Details are not available. Please enter a valid ID!");
                   }
                   break;
+
+          case 4: System.out.println("\nEnter Employee ID to DELETE from the Database :");
+              id = sc.nextInt();
+              int k = 0;
+              try {
+                  for (EmployeeInfo e : all) {
+                      if (id == e.id) {
+                          all.remove(e);
+                          display(all);
+                          k++;
+                      }
+                  }
+                  if (k == 0) {
+                      System.out.println("\nEmployee Details are not available, Please enter a correct ID!");
+                  }
+              }
+              catch(Exception ex) {
+                  System.out.println(ex);
+              }
+              break;
+          case 5: try {
+              assert objectInputStream != null;
+              all = (ArrayList<EmployeeInfo>)objectInputStream.readObject();
+          } catch (Exception e2) {
+              System.out.println(e2);
+          }
+              display(all);
+              break;
+          case 6: try {
+              assert file != null;
+              fileOutputStream = new FileOutputStream(file);
+              objectOutputStream = new ObjectOutputStream(fileOutputStream);
+              objectOutputStream.writeObject(all);
+          } catch (Exception e1) {
+              e1.printStackTrace();
+          } finally{
+              try {
+                  assert fileInputStream != null;
+                  fileInputStream.close();
+                  assert objectInputStream != null;
+                  objectInputStream.close();
+                  assert fileOutputStream != null;
+                  fileOutputStream.close();
+                  assert objectOutputStream != null;
+                  objectOutputStream.close();
+              } catch (Exception e1) {
+                  e1.printStackTrace();
+              }
+          }
+              System.out.println("\nYou have chosen EXIT !! Saving Files and closing the tool.");
+              sc.close();
+              System.exit(0);
+              break;
+
+          default : System.out.println("\nEnter a correct choice from the List :");
+              break;
+      }
+      }
+      while(true);
+    }
+}
