@@ -155,7 +155,46 @@ public class EmpManagement {
                       email, salary, dateOfEmployment, notes));
               display(all);
               break;
-
+          case 2: System.out.println("Enter the Employee ID to search :");
+              id = sc.nextInt();
+              int i = 0;
+              for (EmployeeInfo e : all) {
+                  if (id == e.id) {
+                      System.out.println(e + "\n");
+                      i++;
+                  }
+              }
+              if (i == 0) {
+                  System.out.println("\nEmployee's Details are not available, Please enter a valid ID please!");
+              }
+              break;
+          case 3: System.out.println("nEnter the Employee ID to EDIT the details");
+              id = sc.nextInt();
+              int j = 0;
+              for (EmployeeInfo e : all) {
+                  if (id == e.id) {
+                      j++;
+                      do {
+                          int chislo1 = 0;
+                          System.out.println("\nEdit Employee Details :\n" +
+                                  "1). Employee ID\n" +
+                                  "2). Last Name\n" +
+                                  "3). First Name\n" +
+                                  "4). Father's Name\n" +
+                                  "5). Date Of Birth\n" +
+                                  "6). Position\n" +
+                                  "7). Department\n" +
+                                  "8). Room Number\n" +
+                                  "9). Office Number\n" +
+                                  "10). Email\n" +
+                                  "11). Salary\n" +
+                                  "12). Date of Employment\n" +
+                                  "13). Notes\n");
+                          System.out.println("Enter your choice: ");
+                          chislo1 = sc.nextInt();
+                      }
+                  }
+              }
 
 
 
