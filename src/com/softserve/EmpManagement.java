@@ -101,7 +101,7 @@ public class EmpManagement {
         ObjectOutputStream objectOutputStream = null;
 
       try {
-        file = new File("N:/Solution3/file.txt");
+        file = new File("F:/Solution3/file.txt");
         if(file.exists()) {
         fileInputStream = new FileInputStream(file);
         objectInputStream = new ObjectInputStream(fileInputStream);
@@ -146,7 +146,7 @@ public class EmpManagement {
               email = sc.next();
               System.out.println("Enter Salary :");
               salary = sc.nextFloat();
-              System.out.println("Enter Date Of Deployment :");
+              System.out.println("Enter Date Of Employment :");
               dateOfEmployment = sc.next();
               System.out.println("Enter Some Notes :");
               notes = sc.next();
@@ -192,19 +192,80 @@ public class EmpManagement {
                                   "13). Notes\n");
                           System.out.println("Enter your choice: ");
                           chislo1 = sc.nextInt();
-                      }
+                          switch (chislo1) {
+                                  case 1: System.out.println("\nEnter new Employee ID: ");
+                                      e.id = sc.nextInt();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 2: System.out.println("Enter New Last Name :");
+                                      e.lastName = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 3: System.out.println("Enter New First Name :");
+                                      e.firstName = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 4: System.out.println("Enter New Father's Name :");
+                                      e.fathersName = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 5: System.out.println("Enter New Date of Birth :");
+                                      e.dateOfBirth = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 6: System.out.println("Enter New Position :");
+                                      e.position = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 7: System.out.println("Enter New Department :");
+                                      e.department = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+                                  case 8: System.out.println("Enter New Office Number :");
+                                      e.officeNumber = sc.nextLong();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 9: System.out.println("Enter New Room Number :");
+                                      e.roomNumber = sc.nextInt();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 10: System.out.println("Enter New Email :");
+                                      e.email = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 11: System.out.println("Enter New Salary :");
+                                      e.salary = sc.nextFloat();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 12: System.out.println("Enter New Date Of Employment :");
+                                      e.dateOfEmployment = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 13: System.out.println("Enter New Some Notes :");
+                                      e.notes = sc.next();
+                                      System.out.println(e + "\n");
+                                      break;
+
+                                  case 14: j++;
+                                      break;
+                                  default: System.out.println("\nEnter a correct choice from the List :");
+                                      break;
+                              }
+                          }
+                          while(j == 1);
+                      } }
+                  if (j == 0) {
+                      System.out.println("\nEmployee Details are not available. Please enter a valid ID!");
                   }
-              }
-
-
-
-
-
-      }
-      }
-        }}
-
-
-
-
-
+                  break;

@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2903e19a-0666-424e-a767-7ba4910b3b9e" name="Default Changelist" comment="Input Information">
+    <list default="true" id="2903e19a-0666-424e-a767-7ba4910b3b9e" name="Default Changelist" comment="Input Choice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/softserve/EmpManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/softserve/EmpManagement.java" afterDir="false" />
     </list>
@@ -206,7 +206,7 @@
       <workItem from="1604681504736" duration="87061000" />
       <workItem from="1605522942595" duration="921000" />
       <workItem from="1605524242760" duration="23655000" />
-      <workItem from="1605699183179" duration="3716000" />
+      <workItem from="1605699183179" duration="7005000" />
     </task>
     <task id="LOCAL-00001" summary="General Information">
       <created>1605620136350</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605702018749</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Input Choice">
+      <created>1605722592287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605722592287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="General Information" />
     <MESSAGE value="Input Information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input Information" />
+    <MESSAGE value="Input Choice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input Choice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1605444836044">
