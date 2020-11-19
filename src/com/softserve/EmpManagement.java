@@ -2,6 +2,7 @@ package com.softserve;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 @SuppressWarnings("serial")
@@ -56,15 +57,14 @@ class EmployeeInfo implements Serializable {
                 '}';
     }
 }
-
 public class EmpManagement {
     static void display(ArrayList<EmployeeInfo> all) {
         System.out.println("\n--------------Employee List---------------\n");
-        System.out.printf("%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%-10s%n",
+        System.out.printf("%-10s%-10s%-5s%-20s%-10s%-15s%-15s%-15s%-10s%-10s%-20s%-10s%-5s%n",
                 "ID", "LastName", "FirstName", "FathersName", "DateOfBirth", "Position", "Department", "RoomNumber",
                 "OfficeNumber", "Email", "Salary", "DateOfEmployment", "Notes");
         for (EmployeeInfo e : all) {
-            System.out.printf("%-5s%-20s%-10s%-15s%-10s%-5s%-20s%-10s%-15s%-10s%-5s%-20s%-10s",e.id,e.lastName,e.firstName,e.fathersName,
+            System.out.printf("%-10s%-10s%-5s%-20s%-10s%-15s%-15s%-15s%-10s%-10s%-20s%-10s%-5s%n",e.id,e.lastName,e.firstName,e.fathersName,
                     e.dateOfBirth,e.position,e.department,e.roomNumber,e.officeNumber,
                     e.email,e.salary,e.dateOfEmployment,e.notes);
         }
@@ -94,60 +94,69 @@ public class EmpManagement {
         ObjectOutputStream objectOutputStream = null;
 
       try {
-        file = new File("F:/Solution3/file.txt");
+        file = new File("file.txt");
         if(file.exists()) {
         fileInputStream = new FileInputStream(file);
         objectInputStream = new ObjectInputStream(fileInputStream);
         all = (ArrayList<EmployeeInfo>)objectInputStream.readObject();
         }}
         catch(Exception e) {
-        System.out.println(e);
+        System.out.println("Something wrong!");
         }
       do {
-          System.out.println("\n********* Welcome to the Employee Management System! **********\n");
-          System.out.println("1). Add Employee to the DataBase\n" +
-                  "2). Search for Employee\n" +
-                  "3). Edit Employee details\n" +
-                  "4). Delete Employee Details\n" +
-                  "5). Display all Employees working in this company\n" +
-                  "6). EXIT\n");
-          System.out.println("Enter your choice, please: ");
-          int number = sc.nextInt();
+              System.out.println("\n--------- Welcome to the Employee Management System! ---------\n");
+              System.out.println("1). Add Employee to the DataBase\n" +
+                      "2). Search for Employee\n" +
+                      "3). Edit Employee details\n" +
+                      "4). Delete Employee Details\n" +
+                      "5). Display all Employees working in this company\n" +
+                      "6). EXIT\n");
+              System.out.println("Enter your choice, please: ");
+              int number = sc.nextInt();
 
-      switch (number) {
+        switch (number) {
           case 1:
-              System.out.println("\nEnter, please, the following details to ADD list:\n");
-              System.out.println("Enter ID :");
-              id = sc.nextInt();
-              System.out.println("Enter Last Name :");
-              lastName = sc.next();
-              System.out.println("Enter First Name :");
-              firstName = sc.next();
-              System.out.println("Enter Father's Name :");
-              fathersName = sc.next();
-              System.out.println("Enter Date of Birth :");
-              dateOfBirth = sc.next();
-              System.out.println("Enter Position :");
-              position = sc.next();
-              System.out.println("Enter Department :");
-              department = sc.next();
-              System.out.println("Enter Room Number :");
-              roomNumber = sc.nextInt();
-              System.out.println("Enter Office Number :");
-              officeNumber = sc.nextLong();
-              System.out.println("Enter Email :");
-              email = sc.next();
-              System.out.println("Enter Salary :");
-              salary = sc.nextFloat();
-              System.out.println("Enter Date Of Employment :");
-              dateOfEmployment = sc.next();
-              System.out.println("Enter Some Notes :");
-              notes = sc.next();
-              all.add(new EmployeeInfo(id, lastName, firstName, fathersName,
+              try {
+                  System.out.println("\nEnter, please, the following details to ADD list:\n");
+                  System.out.println("Enter ID :");
+                  id = sc.nextInt();
+                  System.out.println("Enter Last Name :");
+                  lastName = sc.next();
+                  System.out.println("Enter First Name :");
+                  firstName = sc.next();
+                  System.out.println("Enter Father's Name :");
+                  fathersName = sc.next();
+                  System.out.println("Enter Date of Birth :");
+                  dateOfBirth = sc.next();
+                  System.out.println("Enter Position :");
+                  position = sc.next();
+                  System.out.println("Enter Department :");
+                  department = sc.next();
+                  System.out.println("Enter Room Number :");
+                  roomNumber = sc.nextInt();
+                  System.out.println("Enter Office Number :");
+                  officeNumber = sc.nextLong();
+                  System.out.println("Enter Email :");
+                  email = sc.next();
+                  System.out.println("Enter Salary :");
+                  salary = sc.nextFloat();
+                  System.out.println("Enter Date Of Employment :");
+                  dateOfEmployment = sc.next();
+                  System.out.println("Enter Some Notes :");
+                  notes = sc.next();
+
+                  all.add(new EmployeeInfo(id, lastName, firstName, fathersName,
                       dateOfBirth, position, department, roomNumber, officeNumber,
                       email, salary, dateOfEmployment, notes));
               display(all);
               break;
+
+              } catch (NumberFormatException e) {
+                  System.out.println("Enter a valid value!");
+              }  catch (InputMismatchException e) {
+                  System.out.println("Something wrong! Please, enter a valid value!");
+              }
+
           case 2: System.out.println("Enter the Employee ID to search :");
               id = sc.nextInt();
               int i = 0;
@@ -279,14 +288,14 @@ public class EmpManagement {
                   }
               }
               catch(Exception ex) {
-                  System.out.println(ex);
+                  System.out.println("Info is not available!");
               }
               break;
           case 5: try {
               assert objectInputStream != null;
               all = (ArrayList<EmployeeInfo>)objectInputStream.readObject();
           } catch (Exception e2) {
-              System.out.println(e2);
+              System.out.println("Please check the information!");
           }
               display(all);
               break;
@@ -311,7 +320,7 @@ public class EmpManagement {
                   e1.printStackTrace();
               }
           }
-              System.out.println("\nYou have chosen EXIT !! Saving Files and closing the tool.");
+              System.out.println("\nYou have chosen EXIT! Saving Files and closing the tool.");
               sc.close();
               System.exit(0);
               break;
